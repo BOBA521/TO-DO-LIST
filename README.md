@@ -19,7 +19,7 @@
 ## Размещение
 
 Приложение размещено на [GitHub Pages]
-
+https://boba521.github.io/TO-DO-LIST/
 ## Технологии
 
 - HTML
