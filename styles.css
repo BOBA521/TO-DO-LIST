@@ -1,0 +1,92 @@
+body {
+    background: #003b54;
+background: linear-gradient(90deg, rgba(0, 59, 84, 1) 0%, rgba(112, 143, 255, 1) 100%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    padding: 30px 25px 20px 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 8px 12px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    
+}
+
+#addBtn {
+    padding: 8px 18px;
+    background: #8f36e2;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#addBtn:hover {
+    background: #a02c9a;
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+
+}
+
+.task-text {
+    flex: 1;
+    cursor: pointer;
+    transition: color 0.2s;
+    color: #ffffff;
+}
+
+.task-text.completed {
+    text-decoration: line-through;
+    color: #f88585;
+}
+
+.delete-btn {
+    background: #e57373;
+    color: #fff;
+    border-radius: 4px;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    transition: background 0.2s;
+    border: 2px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.delete-btn:hover {
+    background: #ff5959;
+}
